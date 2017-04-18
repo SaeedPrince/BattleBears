@@ -1,0 +1,5 @@
+1- Change the camera in the game to be like a topdown RTS (delete the PlayerController). No movement needed. Enable the Cursor - 10%
+2- When you left-click somewhere on the map you should place a ParticleSystem on that location (use ScreenPointToRay). It should disappear after 5 seconds - 25%
+3- Every AI from team 0 should go to that point. When the ParticleSystem is gone, they go back to their Idle state - 25%
+4- When you right-click somewhere on the map, you create an ‘Angry Spheres’-like projectile, that shoots forward from the camera – 20%
+5- When the projectile hits any Unit, the Unit takes 100 damage – 20%
